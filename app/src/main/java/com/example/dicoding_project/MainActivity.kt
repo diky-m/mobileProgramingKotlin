@@ -28,6 +28,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         result = findViewById(R.id.result)
         btn.setOnClickListener(this)
 
+
+
 //        menampilkan value yg ada di bundle
         if (savedInstanceState != null) {
             val textResult = savedInstanceState.getString(STATE_RESULT)
